@@ -29,7 +29,7 @@ nav{
         justify-content:center;
         align-items: center;
         
-        background-image: url('../Hero-bg.png');
+        background-image: url('./assets/Hero-bg.png');
         background-size: cover;
         background-position: center;
 }
@@ -122,7 +122,7 @@ article{
         font-weight: 700;
         line-height: 33px;
         letter-spacing: 0%;
-        /* text-align: left; */
+        
 }
 .heading-7{
         color: rgb(13, 19, 33);
@@ -277,9 +277,7 @@ footer h2{
         font-family: Azeret Mono;
         font-size: 18px;
         font-weight: 600;
-        /* line-height: 23px; */
-        /* letter-spacing: 0%; */
-        /* text-align: center; */
+        
 
 }
 .support{
@@ -287,7 +285,7 @@ footer h2{
         gap: 32;
         padding: 59px 44px 59px 44px;
         text-align: center;
-        background-image: url(../handshake.jpg);
+        background-image: url(./assets/handshake.jpg);
         background-position: center;
         background-size: cover;
 }
@@ -342,7 +340,7 @@ label{
         font-weight: 600;
         line-height: 23px;
         letter-spacing: 0%;
-        /* text-align: center; */
+        
 }
 
 .ol_{
