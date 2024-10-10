@@ -2,10 +2,10 @@
 
 html {
         scroll-behavior: smooth;
-    }
-    
+}
 
-nav{
+
+nav {
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -13,7 +13,7 @@ nav{
 
 }
 
-.title{
+.title {
         color: rgb(13, 19, 33);
         font-family: Azeret Mono;
         font-size: 25px;
@@ -22,50 +22,55 @@ nav{
         letter-spacing: 0%;
         text-align: left;
 }
-.banner{
+
+.banner {
         height: 600px;
         display: flex;
-        flex-direction: column; 
-        justify-content:center;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
-        
+
         background-image: url('./assets/Hero-bg.png');
         background-size: cover;
         background-position: center;
 }
-.ed-1{
+
+.ed-1 {
         text-align: left;
 }
-.el-1{
+
+.el-1 {
         box-sizing: border-box;
-border: 1px solid rgba(13, 19, 33, 0.2);
-border-radius: 16px;
+        border: 1px solid rgba(13, 19, 33, 0.2);
+        border-radius: 16px;
 
 }
-.btn-1{
+
+.btn-1 {
         color: rgb(13, 19, 33);
         font-family: Azeret Mono;
         font-size: 18px;
         font-weight: 600;
-        
+
         box-sizing: border-box;
         border: 1px solid rgb(13, 19, 33);
         border-radius: 7px;
         opacity: 0.7;
         padding: 15px 21px 15px 21px
-
 }
-.heading-1{
+
+.heading-1 {
         color: rgb(13, 19, 33);
         font-family: Azeret Mono;
         font-size: 43px;
         font-weight: 800;
         line-height: 62px;
         letter-spacing: 0%;
-         text-align: center;
+        text-align: center;
 }
-.para-1{
-        opacity: 0.7;        
+
+.para-1 {
+        opacity: 0.7;
         color: rgb(13, 19, 33);
         font-family: Azeret Mono;
         font-size: 14px;
@@ -74,15 +79,18 @@ border-radius: 16px;
         letter-spacing: 0%;
         text-align: center;
 }
-.lines{
+
+.lines {
         gap: 2px;
-        letter-spacing:1px;
+        letter-spacing: 1px;
 }
-.extra{
+
+.extra {
         text-decoration: none;
         color: white;
 }
-.btn-2{
+
+.btn-2 {
         border-radius: 8px;
         padding: 19px 21px 19px 21px;
         background: rgb(13, 19, 33);
@@ -92,20 +100,22 @@ border-radius: 16px;
         font-weight: 600;
         line-height: 20px;
         letter-spacing: 0%;
-        
+
 }
 
-.details{
+.details {
         height: 1281px;
         padding: 73px 89px 73px 89px;
         border-radius: 16px;
         align-items: center;
         background: rgba(13, 19, 33, 0.02);
 }
-.sub_details{
+
+.sub_details {
         text-align: center;
 }
-article{
+
+article {
         display: flex;
         justify-content: center;
         align-content: center;
@@ -115,16 +125,18 @@ article{
         background-color: white;
         border-radius: 8px;
 }
-.heading-6{
+
+.heading-6 {
         color: rgba(13, 19, 33, 0.7);
         font-family: Azeret Mono;
         font-size: 22px;
         font-weight: 700;
         line-height: 33px;
         letter-spacing: 0%;
-        
+
 }
-.heading-7{
+
+.heading-7 {
         color: rgb(13, 19, 33);
         font-family: Azeret Mono;
         font-size: 29px;
@@ -133,12 +145,13 @@ article{
         letter-spacing: 0%;
         text-align: center;
 }
-iframe{
+
+iframe {
         border-radius: 16px;
-        
+
 }
 
-.para-6{
+.para-6 {
         opacity: 0.7;
 
         color: rgb(13, 19, 33);
@@ -149,18 +162,18 @@ iframe{
         letter-spacing: 0%;
 }
 
-.inspire{
+.inspire {
         height: 713px;
         /* width: 1048px; */
         text-align: center;
         margin: 5px 30px;
         display: flex;
-        flex-direction: column;        
+        flex-direction: column;
         align-items: center;
-         justify-content: center; 
+        justify-content: center;
 }
 
-.moto{
+.moto {
         color: rgb(13, 19, 33);
         font-family: Azeret Mono;
         font-size: 29px;
@@ -169,7 +182,8 @@ iframe{
         letter-spacing: 0%;
         /* text-align: center; */
 }
-.moto-2{
+
+.moto-2 {
         opacity: 0.7;
         color: rgb(13, 19, 33);
         font-family: Azeret Mono;
@@ -178,7 +192,8 @@ iframe{
         line-height: 26px;
         letter-spacing: 0%;
 }
-.YT-video{
+
+.YT-video {
         height: 506px;
         width: 990;
         border-radius: 16px;
@@ -186,7 +201,7 @@ iframe{
         background: url(Jhankar);
 }
 
-.heading-4{
+.heading-4 {
         color: rgb(13, 19, 33);
         font-family: Azeret Mono;
         font-size: 29px;
@@ -195,7 +210,8 @@ iframe{
         letter-spacing: 0%;
         /* text-align: center; */
 }
-.para-4{
+
+.para-4 {
         opacity: 0.7;
         color: rgb(13, 19, 33);
         font-family: Azeret Mono;
@@ -203,39 +219,45 @@ iframe{
         font-weight: 400;
         line-height: 26px;
 }
-.target{
+
+.target {
         height: 423px;
         text-align: center;
         gap: 111;
 
-        
+
 }
-.card-1{
+
+.card-1 {
         width: 335px;
         height: 275px;
         padding: 36px;
         border-radius: 16px;
         background: rgba(255, 76, 30, 0.05);
 }
-.card-2{
+
+.card-2 {
         width: 335px;
         height: 275px;
         padding: 36px;
         border-radius: 16px;
         background: rgba(0, 76, 232, 0.05);
 }
-.card-3{
+
+.card-3 {
         width: 335px;
         height: 275px;
         padding: 36px;
         border-radius: 16px;
         background: rgba(255, 223, 0, 0.05);
 }
-.card-1 { 
+
+.card-1 {
         padding: 40px;
-        border-radius: 14px ;
+        border-radius: 14px;
 }
-.bold{
+
+.bold {
         color: rgb(13, 19, 33);
         font-family: Azeret Mono;
         font-size: 22px;
@@ -244,7 +266,8 @@ iframe{
         letter-spacing: 0%;
         text-align: left;
 }
-.le{
+
+.le {
         color: rgb(13, 19, 33);
         font-family: Azeret Mono;
         font-size: 14px;
@@ -253,15 +276,17 @@ iframe{
         letter-spacing: 0%;
         text-align: left;
 }
-.cards{
+
+.cards {
         gap: 44px;
-        display: flex ;
+        display: flex;
         justify-content: center;
-        align-items:start;
-        
+        align-items: start;
+
 
 }
-footer{
+
+footer {
         height: 90px;
         display: flex;
         /* flex-direction: row; */
@@ -269,18 +294,20 @@ footer{
         align-items: center;
         border-radius: 14px;
         background: rgba(13, 19, 33, 0.03);
-         padding: 0px 120px 0px 120px;
+        padding: 0px 120px 0px 120px;
 
 }
-footer h2{
+
+footer h2 {
         color: rgb(13, 19, 33);
         font-family: Azeret Mono;
         font-size: 18px;
         font-weight: 600;
-        
+
 
 }
-.support{
+
+.support {
         height: 289px;
         gap: 32;
         padding: 59px 44px 59px 44px;
@@ -289,7 +316,8 @@ footer h2{
         background-position: center;
         background-size: cover;
 }
-.heading-5{
+
+.heading-5 {
         color: rgb(255, 255, 255);
         font-family: Azeret Mono;
         font-size: 32px;
@@ -298,10 +326,11 @@ footer h2{
         letter-spacing: 0%;
         /* text-align: center; */
 }
-.para-5{
+
+.para-5 {
         opacity: 0.7;
 
-        color: rgb(255, 255, 255); 
+        color: rgb(255, 255, 255);
         font-family: Azeret Mono;
         font-size: 16px;
         font-weight: 400;
@@ -309,14 +338,16 @@ footer h2{
         letter-spacing: 0%;
         /* text-align: center; */
 }
-label{
+
+label {
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 5px;
 }
-.box-in{
-        
+
+.box-in {
+
         height: 52px;
         width: 504px;
         border: 1px solid rgba(13, 19, 33, 0.15);
@@ -327,7 +358,8 @@ label{
         font-size: 16px;
         font-weight: 400;
 }
-.box-sub{
+
+.box-sub {
         width: 110px;
         height: 52px;
         padding: 15px 18px 15px 18px;
@@ -340,19 +372,20 @@ label{
         font-weight: 600;
         line-height: 23px;
         letter-spacing: 0%;
-        
+
 }
 
-.ol_{
+.ol_ {
         color: rgb(13, 19, 33);
         font-family: Azeret Mono;
         font-size: 29px;
         font-weight: 800;
         line-height: 34px;
         letter-spacing: 0%;
-        
+
 }
-.ol_p{
+
+.ol_p {
         opacity: 0.7;
         color: rgb(13, 19, 33);
         font-family: Azeret Mono;
@@ -360,23 +393,27 @@ label{
         font-weight: 400;
         line-height: 24px;
         letter-spacing: 0%;
-        
+
 }
-.some{
+
+.some {
         margin-left: 30px;
 }
-.next-target{
+
+.next-target {
         height: 796px;
         margin-top: 150px;
 }
 
-.info{
+.info {
         text-align: center;
 }
-.block{
+
+.block {
         text-align: left;
 }
-.bhed{
+
+.bhed {
         color: rgb(13, 19, 33);
         font-family: Azeret Mono;
         font-size: 22px;
@@ -385,20 +422,22 @@ label{
         letter-spacing: 0%;
         text-align: left;
 }
-.lin{
+
+.lin {
         color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 700;
-line-height: 19px;
-letter-spacing: 0%;
-text-align: left;
+        font-family: Azeret Mono;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: 0%;
+        text-align: left;
 }
-.doflex{
+
+.doflex {
         height: 201px;
         padding: 36px;
-        
-        margin: 10px ;
+
+        margin: 10px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -407,7 +446,8 @@ text-align: left;
         border-radius: 16px;
         background: rgb(255, 255, 255);
 }
-.para-9{
+
+.para-9 {
         opacity: 0.7;
         color: rgb(13, 19, 33);
         font-family: Azeret Mono;
@@ -417,12 +457,15 @@ text-align: left;
         letter-spacing: 0%;
         text-align: left;
 }
-.card-1{
+
+.card-1 {
         text-align: left;
 }
-.card-2{
+
+.card-2 {
         text-align: left;
 }
-.card-3{
+
+.card-3 {
         text-align: left;
 }
